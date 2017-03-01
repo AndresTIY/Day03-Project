@@ -1,17 +1,22 @@
+body {
+  font-family: sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+}
 header {
   background-color: #333333;
   color: #929292;
   position: fixed;
     top: 0;
-    bottom: 16rem;
+    bottom: 0;
     right: 0;
     left: 0;
-  font-family: sans-serif;
+  height: 3rem;
 }
 header li {
   display: inline-block;
   padding: 0 .5rem 0 .5rem;
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 .logo {
   padding-top: .5rem;
@@ -37,14 +42,23 @@ header li {
   position: absolute;
     top: 0;
     right: 0;
-
 }
 .learnmore {
-  background-color: #444444
+  height: 4rem;
+  margin-top: 3rem;
+  background-color: #444444;
+  max-width: 100%;
+}
+
+.first {
+  color: white;
+}
+.second {
+  color: #929292;
 }
 .filters {
-  background-color: #FBFBFB
+  background-color: #FBFBFB;
 }
 main {
-  background-color: #F4F4F4
+  background-color: #F4F4F4;
 }
