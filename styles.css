@@ -44,17 +44,41 @@ header li {
     right: 0;
 }
 .learnmore {
-  height: 4rem;
+  height: 7rem;
   margin-top: 3rem;
   background-color: #444444;
-  max-width: 100%;
+  text-align: center;
 }
-
+.learnmore p {
+  display: inline-flex;
+  padding: 1rem .25rem 0 .25rem;
+}
 .first {
   color: white;
 }
 .second {
   color: #929292;
+}
+.button1 {
+  background-color: #999999;
+  width: 5.5rem;
+  border: #999999 1rem solid;
+
+}
+.button2 {
+  background-color: #ED6499;
+  width: 4rem;
+  border: #ED6499 1rem solid;
+
+
+}
+.button1, .button2 {
+  text-align: center;
+  color: white;
+  border-radius: .3rem;
+  display: inline-block;
+  font-size: .85rem;
+
 }
 .filters {
   background-color: #FBFBFB;
