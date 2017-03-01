@@ -10,33 +10,35 @@ header {
 }
 header li {
   display: inline-block;
-  /*padding-bottom: 5px;*/
   padding: 0 .5rem 0 .5rem;
   font-size: 0.75rem;
 }
-
-/*header img {
-  height: 2rem;
-  width: auto;
-  margin-top: 1rem;
-}*/
+.logo {
+  padding-top: .5rem;
+  width: 5rem;
+}
 .logo img {
   height: 2rem;
   width: auto;
   float: left;
 }
-.logo {
-  padding-top: 1rem;
-}
 
-
-ul {
+.upperleft {
   padding-left: 1rem;
-  margin-top: .5rem;
+  position: absolute;
+    top: 0;
+    left: 1.5rem;
   list-style: none;
+  width: 25rem;
+}
+.upperright {
+  text-align: right;
+  width: 20rem;
+  position: absolute;
+    top: 0;
+    right: 0;
 
 }
-
 .learnmore {
   background-color: #444444
 }
