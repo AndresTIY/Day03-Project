@@ -1,0 +1,45 @@
+header {
+  background-color: #333333;
+  color: #929292;
+  position: fixed;
+    top: 0;
+    bottom: 16rem;
+    right: 0;
+    left: 0;
+}
+header li {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+header img {
+  height: 2rem;
+  width: auto;
+  /*float: left; no effect*/
+  /*margin: 0; no effect*/
+
+}
+
+/*.logo {
+  border-bottom: 1rem;
+  float: left;
+}*/
+
+ul {
+  padding-left: 1rem;
+  padding-bottom: 5rem;
+  list-style: none;
+
+}
+.list {
+  /*margin-bottom: 5px;*/
+}
+.learnmore {
+  background-color: #444444
+}
+.filters {
+  background-color: #FBFBFB
+}
+main {
+  background-color: #F4F4F4
+}
