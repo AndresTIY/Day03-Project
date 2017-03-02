@@ -110,5 +110,6 @@ header li {
   border-top: .9rem #FFFFFF solid;
   border-right: .9rem #FFFFFF solid;
   border-left: .9rem #FFFFFF solid;
-  border-bottom: 2.5rem #FFFFFF solid
+  border-bottom: 2.5rem #FFFFFF solid;
+  margin: 1rem 1rem 2rem 1rem;
 }
