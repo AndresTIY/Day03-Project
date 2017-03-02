@@ -99,7 +99,8 @@ header li {
 .icon {
   color: #BBBBBB;
   display: inline;
-  text-align: right;  
+  position: absolute;
+  right: 3rem;
 }
 
 main {
