@@ -62,13 +62,13 @@ header li {
 .button1 {
   background-color: #999999;
   width: 5.5rem;
-  border: #999999 1rem solid;
+  border: #999999 .8rem solid;
 
 }
 .button2 {
   background-color: #ED6499;
   width: 4rem;
-  border: #ED6499 1rem solid;
+  border: #ED6499 .8rem solid;
 
 
 }
