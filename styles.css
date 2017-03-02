@@ -103,6 +103,12 @@ header li {
   right: 3rem;
 }
 
-main {
 
+.images img {
+  width: 16.5rem;
+  height: 12.5rem;
+  border-top: .9rem #FFFFFF solid;
+  border-right: .9rem #FFFFFF solid;
+  border-left: .9rem #FFFFFF solid;
+  border-bottom: 2.5rem #FFFFFF solid
 }
