@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   margin-left: 0;
   margin-right: 0;
+  background-color: #F4F4F4;
 }
 header {
   background-color: #333333;
@@ -28,6 +29,7 @@ header li {
   float: left;
 }
 
+
 .upperleft {
   padding-left: 1rem;
   position: absolute;
@@ -53,7 +55,7 @@ header li {
   display: inline-flex;
   padding: 1rem .25rem 0 .25rem;
 }
-.first {
+.white {
   color: white;
 }
 .second {
@@ -82,7 +84,13 @@ header li {
 }
 .filters {
   background-color: #FBFBFB;
+  text-align: center;
+  padding: 1.5rem 0;
+  /*height: 3.15rem;*/
+  /*vertical-align: middle;*/
+
 }
+
 main {
-  background-color: #F4F4F4;
+
 }
