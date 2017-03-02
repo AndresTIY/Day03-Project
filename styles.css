@@ -46,14 +46,14 @@ header li {
     right: 0;
 }
 .learnmore {
-  height: 7rem;
+  height: 4.6rem;
   margin-top: 3rem;
   background-color: #444444;
   text-align: center;
 }
 .learnmore p {
   display: inline-flex;
-  padding: 1rem .25rem 0 .25rem;
+  padding: .7rem .25rem 0 .25rem;
 }
 .white {
   color: white;
@@ -85,10 +85,21 @@ header li {
 .filters {
   background-color: #FBFBFB;
   text-align: center;
-  padding: 1.5rem 0;
+  padding: .7rem 0;
   /*height: 3.15rem;*/
-  /*vertical-align: middle;*/
 
+}
+.filters span {
+  padding: 0 .7rem;
+  font-size: .7rem;
+}
+.fa-chevron-down {
+  color: #BBBBBB;
+}
+.icon {
+  color: #BBBBBB;
+  display: inline;
+  text-align: right;  
 }
 
 main {
