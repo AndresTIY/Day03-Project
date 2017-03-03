@@ -86,23 +86,25 @@ header li {
   background-color: #FBFBFB;
   text-align: center;
   padding: .7rem 0;
-  /*height: 3.15rem;*/
-
 }
 .filters span {
   padding: 0 .7rem;
   font-size: .7rem;
 }
-.fa-chevron-down {
+.fa { /*all icons with .fa class gets this color*/
   color: #BBBBBB;
-}
-.icon {
-  color: #BBBBBB;
-  display: inline;
-  position: absolute;
-  right: 3rem;
 }
 
+.icon {
+  display: inline;
+  /*position: absolute; this el keeps icon above other pages*/
+  /*right: 3rem;*/
+  vertical-align: text-bottom;
+  float: right;
+}
+.fa-th-large {
+  font-size: 1rem;
+}
 
 .images img {
   width: 16.5rem;
@@ -111,5 +113,11 @@ header li {
   border-right: .9rem #FFFFFF solid;
   border-left: .9rem #FFFFFF solid;
   border-bottom: 2.5rem #FFFFFF solid;
-  margin: 1rem 1rem 2rem 1rem;
+  margin: 2rem 1rem;
+}
+.bordericons {
+  float: right;
+}
+.bordericons i { /*correct padding*/
+  /*padding: 0 .35rem;*/
 }
