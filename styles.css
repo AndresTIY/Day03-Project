@@ -19,6 +19,9 @@ header li {
   padding: 0 .5rem 0 .5rem;
   font-size: .75rem;
 }
+ul {
+  list-style: none;
+}
 .logo {
   padding-top: .5rem;
   width: 5rem;
@@ -35,7 +38,6 @@ header li {
   position: absolute;
     top: 0;
     left: 1.5rem;
-  list-style: none;
   width: 25rem;
 }
 .upperright {
@@ -106,18 +108,59 @@ header li {
   font-size: 1rem;
 }
 
-.images img {
+.card {
+  height: 15.9rem;
+  width: 18.3rem;
+  background-color: #FFFFFF;
+  margin: 2rem 3rem;
+}
+.card img{
   width: 16.5rem;
   height: 12.5rem;
-  border-top: .9rem #FFFFFF solid;
-  border-right: .9rem #FFFFFF solid;
-  border-left: .9rem #FFFFFF solid;
-  border-bottom: 2.5rem #FFFFFF solid;
-  margin: 2rem 1rem;
+  margin-left: .9rem;
+  margin-top: .9rem;
+  /*margin: 2rem 1rem;*/
 }
-.bordericons {
+.bordericons{
+  display: inline-block;
   float: right;
+  margin-right: .9rem;
+
 }
-.bordericons i { /*correct padding*/
-  /*padding: 0 .35rem;*/
+.bordericons i {
+    vertical-align: -webkit-baseline-middle;
+  }
+
+
+.authorlist  {
+
+
 }
+.authorlist li {
+  display: inline-block;
+  /*padding: 0 .25rem;*/
+}
+.authorimg img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+
+  }
+.author {
+    color: #3A8BBB;
+  }
+
+  /*.upperleft {
+    padding-left: 1rem;
+    position: absolute;
+      top: 0;
+      left: 1.5rem;
+    width: 25rem;
+  }
+  .upperright {
+    text-align: right;
+    width: 20rem;
+    position: absolute;
+      top: 0;
+      right: 0;
+  }*/
