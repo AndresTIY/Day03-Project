@@ -108,13 +108,13 @@ ul {
   font-size: 1rem;
 }
 .main-card {
-
+  display: inline-block;
 }
 .card {
   height: 15.9rem;
   width: 18.3rem;
   background-color: #FFFFFF;
-  margin: 2rem 3rem 0 3rem;
+  margin: 2rem .5rem 0 .5rem;
 }
 .card img{
   width: 16.5rem;
@@ -138,7 +138,7 @@ ul {
   text-align: left;
 }
 .main-author ul {
-  padding: 0 4rem;
+  padding-left: 1.5rem;
   margin-top: 1rem;
 }
 .main-author li{
