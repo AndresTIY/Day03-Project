@@ -136,7 +136,6 @@ ul {
     /*padding-bottom: 1rem;*/
     font-size: .7rem;
   }
-
 .main-author{
   float: left;
   padding-left: 1rem;
@@ -163,3 +162,34 @@ ul {
 .center {
   text-align: center;
 }
+.bottombutton1, .bottombutton2 {
+  font-size: .6rem;
+}
+.bottombutton1 {
+  color: #FFFFFF;
+  background-color: #E26696;
+  width: 18.6rem;
+  border: #E26696 .8rem solid;
+  border-radius: .2rem;
+  display: inline-block;
+  margin: 1rem 0;
+}
+.bottombutton2 {
+  color: #3A8BBB;
+
+}
+/*.button2 {
+  background-color: #ED6499;
+  width: 4rem;
+  border: #ED6499 .8rem solid;
+
+
+}
+.button1, .button2 {
+  text-align: center;
+  color: white;
+  border-radius: .3rem;
+  display: inline-block;
+  font-size: .85rem;
+
+}*/
