@@ -164,6 +164,7 @@ ul {
   }
 .center {
   text-align: center;
+  margin-bottom: 2rem;
 }
 .bottombutton1, .bottombutton2 {
   font-size: .6rem;
@@ -182,10 +183,10 @@ ul {
   margin: 0 20rem;
 }
 .arrow-icon {
-  float: right;
-  display: inline-block;
-  padding-right: 2rem;
-  }
+    position: fixed;
+    top: 75%;
+    left: 96%;
+}
 .arrow-icon i {
   font-size: 2rem;
 }
@@ -193,8 +194,78 @@ footer {
   background-color: #FFFFFF;
   color: #929292;
   font-size: .75rem;
+  border-top: 1px solid #929292;
+  position: relative;
+  height: 18rem;
 
 }
+.footer-inner-container {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.inner-box {
+  position: relative;
+
+}
+.inner-box-mod {
+  float: left;
+  width: 25%;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+
+}
+.inner-box-mod img {
+  height: 4rem;
+}
+
+ul.sitemap {
+  display: block;
+  margin-right: 4rem;
+  padding: 1rem;
+}
+h3 {
+  padding-top: 1rem;
+}
+.jobs {
+  padding-left: 0;
+  margin-top: -.5rem;
+}
+.job-description {
+  padding-left: 1.4rem;
+}
+.company-name {
+  color: #3A8BBB;
+  font-size: 1rem;
+}
+.jobs i {
+  font-size: 1.2rem;
+}
+.show {
+  padding-bottom: 1rem;
+  font-weight: 900;
+  font-size: 1rem;
+}
+.footer-copyright {
+  padding-left: 3rem;
+
+  float: left;
+}
+/*.footer-sitemap-container {
+  margin: 0 auto;
+  padding: 30px 30px 20px 30px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-caption-1 img {
   height: 4rem;
 }
@@ -206,22 +277,20 @@ footer {
   padding-left: 1rem;
   width: 14rem;
 }
-.footer-copyright {
-  padding-left: 1rem;
-  padding-top: 2rem;
-}
+
 .footer-socialmedia {
   padding-left: 1rem;
   padding-top: 1rem;
   font-size: 2rem;
 }
-.footer-sitemap {
-  height: 10rem;
-  width: 25rem;
-}
-.footer-sitemap ul {
+
+/*.footer-sitemap ul {
   display: inline-block;
 }
 .footer-sitemap li {
   padding: .4rem 0;
+}*/
+.footer-sitemap-container {
+  height: 10rem;
+  width: 25rem;
 }
