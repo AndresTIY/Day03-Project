@@ -196,7 +196,7 @@ footer {
   font-size: .75rem;
   border-top: 1px solid #929292;
   position: relative;
-  height: 18rem;
+  height: 19rem;
 
 }
 .footer-inner-container {
@@ -247,8 +247,23 @@ h3 {
 }
 .footer-copyright {
   padding-left: 3rem;
-
   float: left;
+}
+.inner-box-mod span img {
+  height: 3rem;
+  border: .5rem solid #D01F5D;
+  border-radius: .25rem;
+  margin-top: 2rem;
+}
+
+
+.ads {
+  padding-top: .5rem;
+}
+.footer-socialmedia {
+
+  padding-top: .5rem;
+  font-size: 2rem;
 }
 /*.footer-sitemap-container {
   margin: 0 auto;
@@ -278,11 +293,7 @@ h3 {
   width: 14rem;
 }
 
-.footer-socialmedia {
-  padding-left: 1rem;
-  padding-top: 1rem;
-  font-size: 2rem;
-}
+
 
 /*.footer-sitemap ul {
   display: inline-block;
